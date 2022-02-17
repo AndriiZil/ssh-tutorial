@@ -20,6 +20,11 @@
 ```bash
     ssh-add -D
 ```
+* Add keys to agent
+```bash
+    ssh-add ~/.ssh/example_private_key
+    ssh-add ~/.ssh/example_private_key
+```
 * In order to clone different repos, create file `config` in ~/.ssh folder
 ```bash
     touch config
